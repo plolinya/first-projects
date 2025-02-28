@@ -52,15 +52,11 @@ int main()
 			cout << "\nogo! it's a neparne chyslo";
 		}
 	}
-	else if (o == '/')
+	else if (o == '/' && num2!=0)
 	{
 		resultdivision = (float)num1 / (float)num2;
 		cout << (float)resultdivision;
-		/*if (num2 == 0)
-		{
-			cout << "whoops! we can't do that at our math level :(";
-		}
-		}*/
+		
 	}
 	else if (o == '%')
 	{

@@ -6,11 +6,11 @@ int main()
 	int num1, num2, result;
 	char o; 
 	float resultdivision;
-	cout << "please enter number 1:\t";
+	cout << "please enter number 1:";
 	cin >> num1;
-	cout << "please enter an operation:\t";
+	cout << "please enter an operation:";
 	cin >> o;
-	cout << "please enter number 2:\t";
+	cout << "please enter number 2:\n";
 	cin >> num2;
 	
 	if (o == '+')
@@ -52,15 +52,11 @@ int main()
 			cout << "\nogo! it's a neparne chyslo";
 		}
 	}
-	else if (o == '/')
+	else if (o == '/' && num2!=0)
 	{
 		resultdivision = (float)num1 / (float)num2;
 		cout << (float)resultdivision;
-		/*if (num2 == 0)
-		{
-			cout << "whoops! we can't do that at our math level :(";
-		}
-		}*/
+		
 	}
 	/*else if (o == '/' && num2 == '0')
 	{

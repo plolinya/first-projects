@@ -62,6 +62,10 @@ int main()
 		}
 		}*/
 	}
+	/*else if (o == '/' && num2 == '0')
+	{
+		cout << "whoops! we can't do that at our math level :(";
+	}*/ 
 	else if (o == '%')
 	{
 		result = num1 % num2;
